@@ -27,7 +27,7 @@ outside   my builds     Sort Moments, WeaveSkip, NeighbourFit, small-model exper
 writing   noise check   slowing down AI claims before I accidentally believe them
 ```
 
-## Things I can actually talk through
+## Stuff I've done and like to show off
 
 | Work | What it is | Why it matters |
 | --- | --- | --- |
