@@ -41,7 +41,9 @@ writing   noise check   slowing down AI claims before I accidentally believe the
 | Repo | What to expect |
 | --- | --- |
 | [Portfolio site](https://github.com/DarthAmk97/DarthAmk97.github.io) | The full version of this profile, built because GitHub alone gets cramped fast. |
-| [SortMoments](https://github.com/DarthAmk97/SortMoments) | Local event-photo sorting with face clustering, because 4,000 photos should not become a weekend job. |
+| [SortMoments](https://github.com/DarthAmk97/SortMoments) | Local event-photo sorting with face clustering; public site shows 359 downloads and 2,390 visitors. |
+| [WeaveSkip](https://www.weaveskip.com/) | One article/RSS/manual source into platform-native drafts; public site shows 5,344 visitors, 8 post batches, and 100% kept without edits. |
+| [NeighbourFit](https://neighbourfit.co.uk) | UK rental postcode checker with Map Intelligence open and rental discovery in private beta. |
 | [MovieLens](https://github.com/DarthAmk97/MovieLens) | Recommendation challenge work: content-based, collaborative filtering, and an ensemble path. |
 | [thesis_reproducibility](https://github.com/DarthAmk97/thesis_reproducibility) | Reproducibility work around cognitive-signal NLP experiments. |
 | [qwen-4B-ablation-method](https://github.com/DarthAmk97/qwen-4B-ablation-method) | Small-model ablation trail. |
