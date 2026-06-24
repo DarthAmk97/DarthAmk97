@@ -1,73 +1,55 @@
 <div align="center">
 
-# Abdullah Khawaja
+<pre>
+Abdullah Khawaja
+DPD UK / recommender systems / churn / forecasting
+models are only interesting once someone has to use them
+</pre>
 
-ML Engineer at **DPD UK**. Previously worked around marketplace ranking and recommender systems at **Daraz / Alibaba Group**.
-
-I like machine learning most when it has to survive contact with a real workflow: churn, forecasting, search, LTR, pricing, messy users, and the last mile between a notebook and a decision someone can act on.
-
-<br />
-
-<a href="https://darthamk97.github.io/">
-  <img alt="Website" src="https://img.shields.io/badge/visit%20the%20portfolio-111111?style=for-the-badge&logo=githubpages&logoColor=a77ad8">
-</a>
-<a href="https://linkedin.com/in/amkbelievesinml">
-  <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-111111?style=for-the-badge&logo=linkedin&logoColor=a77ad8">
-</a>
-<a href="https://navigatingnoise.substack.com/">
-  <img alt="Substack" src="https://img.shields.io/badge/navigating%20noise-111111?style=for-the-badge&logo=substack&logoColor=a77ad8">
-</a>
-<a href="https://hackernoon.com/u/navigatingnoise">
-  <img alt="HackerNoon" src="https://img.shields.io/badge/hackernoon-111111?style=for-the-badge&logo=hackernoon&logoColor=a77ad8">
-</a>
-<a href="https://huggingface.co/amkkk">
-  <img alt="Hugging Face" src="https://img.shields.io/badge/hugging%20face-111111?style=for-the-badge&logo=huggingface&logoColor=a77ad8">
-</a>
+<a href="https://darthamk97.github.io/"><strong>Portfolio</strong></a> ·
+<a href="https://linkedin.com/in/amkbelievesinml"><strong>LinkedIn</strong></a> ·
+<a href="https://navigatingnoise.substack.com/"><strong>Substack</strong></a> ·
+<a href="https://hackernoon.com/u/navigatingnoise"><strong>HackerNoon</strong></a> ·
+<a href="https://huggingface.co/amkkk"><strong>Hugging Face</strong></a>
 
 </div>
 
 ---
 
+I work as a Machine Learning Engineer at **DPD UK**. Before that it was marketplace ranking, recommender systems, search, baskets, and seller-side problems at **Daraz / Alibaba Group**.
+
+I like machine learning most when it leaves the notebook and starts annoying real systems: false positives, trust, serving cost, business trade-offs, and whether the person using the output can actually act on it.
+
 ```txt
-current / DPD UK          churn, forecasting, small-model chatbot work
-past    / Daraz           ranking, search, baskets, LTR, marketplace ML
-after   / my own builds   Sort Moments, WeaveSkip, NeighbourFit
-writing / NavigatingNoise AI claims, slowed down before I believe them
+now       DPD UK        churn, forecasting, chatbot serving cost, operational ML
+before    Daraz         ranking, search, LTR, recommender systems, conversion
+outside   my builds     Sort Moments, WeaveSkip, NeighbourFit, small-model experiments
+writing   noise check   slowing down AI claims before I accidentally believe them
 ```
 
-## What I usually end up doing
+## Things I can actually talk through
 
-- Build models for problems where a wrong answer costs attention, money, or trust.
-- Work on recommender systems, ranking, churn, forecasting, and applied NLP.
-- Care about the boring parts: evaluation, false positives, deployment shape, and whether anyone can use the output.
-- Build small side products when an existing workflow annoys me enough.
-
-## Work I can talk through
-
-| Work | What it is | Notes |
+| Work | What it is | Why it matters |
 | --- | --- | --- |
-| **DPD churn meta-ensemble** | Retention warning system for customer churn. | $650K recorded retained revenue so far. False positives still matter. |
-| **DPD volume forecasting** | Forecasting work for operational volume planning. | Beat a human benchmark by 8%. The hard part is trust, not the chart. |
-| **Daraz ranking systems** | Marketplace feeds, search, baskets, LTR, and conversion work. | Data science stopped being coursework and started changing what buyers and sellers saw. |
-| **Sort Moments** | Local photo sorting for event folders. | Face clustering and desktop-first privacy because 4,000 photos should not become a weekend job. |
-| **WeaveSkip** | One source post into platform-native drafts. | Review before publish. Less repetitive rewriting. |
-| **NeighbourFit** | Area-fit checks before property viewings. | Commute, budget, local context, and the trade-offs hidden behind a nice listing photo. |
+| **Consumer Chatbot Modernization** | Fine-tuned Gemma 4 E4B IT on 20K+ customer-chatbot conversations, with tool calls and custom databooks recalled at response time. | Replaces Gemini-based serving with Google-native Vertex AI inference; forecasts point to **65% lower chatbot spend**. |
+| **DPD Churn Meta-Ensemble** | Dual LightGBMs, WaveNet, logistic hazard, and a hybrid XGBoost-Transformer for customer-retention warnings. | **$650K recorded retained revenue** so far; false positives still have to be earned. |
+| **DPD Volume Forecasting** | Operational volume forecasting across hubs. | Beat a 12-year human benchmark by **+8%**; the hard bit is getting people to trust the number. |
+| **Daraz Ranking Systems** | Search, recommendations, LTR, baskets, seller cold start, and price matching. | The point was not a nicer model card; it changed what buyers and sellers actually saw. |
 
-## Public repos worth opening
+## Repo map
 
-| Repo | Why it is here |
+| Repo | What to expect |
 | --- | --- |
-| [DarthAmk97.github.io](https://github.com/DarthAmk97/DarthAmk97.github.io) | The portfolio site itself. Built because a plain GitHub bio was not enough room. |
-| [SortMoments](https://github.com/DarthAmk97/SortMoments) | Local ML photo sorter using InsightFace-style face clustering. |
-| [thesis_reproducibility](https://github.com/DarthAmk97/thesis_reproducibility) | Reproducibility work around cognitive-signal NLP experiments. |
+| [Portfolio site](https://github.com/DarthAmk97/DarthAmk97.github.io) | The full version of this profile, built because GitHub alone gets cramped fast. |
+| [SortMoments](https://github.com/DarthAmk97/SortMoments) | Local event-photo sorting with face clustering, because 4,000 photos should not become a weekend job. |
 | [MovieLens](https://github.com/DarthAmk97/MovieLens) | Recommendation challenge work: content-based, collaborative filtering, and an ensemble path. |
-| [GaitRecognition](https://github.com/DarthAmk97/GaitRecognition) | Older university project that still shows the ML itch. |
-| [qwen-4B-ablation-method](https://github.com/DarthAmk97/qwen-4B-ablation-method) | Small-model release / ablation work. |
+| [thesis_reproducibility](https://github.com/DarthAmk97/thesis_reproducibility) | Reproducibility work around cognitive-signal NLP experiments. |
+| [qwen-4B-ablation-method](https://github.com/DarthAmk97/qwen-4B-ablation-method) | Small-model ablation trail. |
 | [gemma-e2b-ablation-method](https://github.com/DarthAmk97/gemma-e2b-ablation-method) | Another small-model experiment trail. |
 
-## Tools I reach for
+## Tools I keep coming back to
 
-`Python` `SQL` `pandas` `scikit-learn` `LightGBM` `XGBoost` `PyTorch` `TensorFlow` `FastAPI` `React` `TypeScript` `PostgreSQL` `PostGIS` `Docker`
+`Python` `SQL` `PyTorch` `TensorFlow` `Keras` `scikit-learn` `LightGBM` `XGBoost` `React` `TypeScript` `Electron` `Docker` `GCP` `Vertex AI` `BigQuery` `AWS` `Alibaba Cloud` `LangChain` `OpenAI` `Ollama` `Unsloth`
 
 <details>
 <summary><strong>GitHub stats, if you like that sort of thing</strong></summary>
@@ -85,6 +67,4 @@ writing / NavigatingNoise AI claims, slowed down before I believe them
 
 ---
 
-If you are here for the fuller story, the site is better than this README:
-
-**[darthamk97.github.io](https://darthamk97.github.io/)**
+The fuller version is here: **[darthamk97.github.io](https://darthamk97.github.io/)**
